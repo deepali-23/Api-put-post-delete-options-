@@ -1,0 +1,25 @@
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+     "name":"qwerty",
+    "email":"qwerty@gmail.com"
+}
+###
+GET http://localhost:3000/users
+Content-Type: application/json
+
+####
+DELETE http://localhost:3000/users
+Content-Type: application/json
+
+
+####
+OPTIONS http://localhost:3000/users
+Content-Type: application/json
+
+####
+PUT http://localhost:3000/users
+Content-Type: application/json
+
